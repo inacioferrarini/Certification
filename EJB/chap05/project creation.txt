@@ -1,0 +1,25 @@
+creating projects for chap 05
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap05 \
+-DartifactId=update-detached-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=update-detached-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=update-detached-client
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap05 \
+-DartifactId=transaction-types-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=transaction-types-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=transaction-types-client
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap05 \
+-DartifactId=flush-mode-types-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=flush-mode-types-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=flush-mode-types-client
