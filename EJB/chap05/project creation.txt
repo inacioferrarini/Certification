@@ -23,3 +23,11 @@ mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
 -DejbModule=flush-mode-types-ejb \
 -DpersistenceUnitName=titan \
 -DclientModule=flush-mode-types-client
+
+mvn archetype:generate \
+-DarchetypeGroupId=sandbox.inacio.maven \
+-DarchetypeArtifactId=mvn-sandalone-archetype \
+-DarchetypeVersion=1.0 \
+-DgroupId=certification.inacio.ejb.chap05 \
+-DartifactId=standalone-jpa \
+-Dversion=1.0.0-SNAPSHOT
