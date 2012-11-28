@@ -1,0 +1,41 @@
+creating projects for chap 05
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap06 \
+-DartifactId=basic-property-mapping-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=basic-property-mapping-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=basic-property-mapping-client
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap06 \
+-DartifactId=id-class-mapping-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=id-class-mapping-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=id-class-mapping-client
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap06 \
+-DartifactId=embedded-id-mapping-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=embedded-id-mapping-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=embedded-id-mapping-client
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap06 \
+-DartifactId=multitable-mapping-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=multitable-mapping-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=multitable-mapping-client
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap06 \
+-DartifactId=embeddable-class-mapping-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=embeddable-class-mapping-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=embeddable-class-mapping-client

@@ -1,0 +1,20 @@
+Note
+================
+The code on this directory comes from Enterprise JavaBeans 3.0, by Bill Burke.
+I just put them on maven projects.
+
+
+chap04/first-bean-parent -> workbook/ex04_1
+      /custom-jndi-parent -> workbook/ex04_2
+      /custom-jndi-xml-parent -> workbook/ex04_3
+      
+chap05/update-detached-parent -> workbook/ex05_1 (client_1)
+      /transaction-types-parent -> workbook/ex05_1 (client_2)
+      /flush-mode-types-parent -> workbook/ex05_1 (client_3)
+      /standalone-jpa ->  workbook/ex05_2
+      
+chap06/basic-property-mapping-parent -> workbook/ex06_1
+      /id-class-mapping-parent -> workbook/ex06_2
+      /embedded-id-mapping-parent -> workbook/ex06_3
+      /multitable-mapping-parent -> workbook/ex06_4
+      /embeddable-class-mapping-parent -> workbook/ex06_5
