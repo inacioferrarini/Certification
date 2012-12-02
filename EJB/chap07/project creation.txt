@@ -1,0 +1,31 @@
+mvn archetype:generate \
+-DarchetypeGroupId=sandbox.inacio.maven \
+-DarchetypeArtifactId=mvn-jpa-sandalone-archetype \
+-DarchetypeVersion=1.0 \
+-DgroupId=certification.inacio.ejb.chap07 \
+-DartifactId=cascading-persist-merge-remove \
+-Dversion=1.0.0-SNAPSHOT
+
+mvn archetype:generate \
+-DarchetypeGroupId=sandbox.inacio.maven \
+-DarchetypeArtifactId=mvn-jpa-sandalone-archetype \
+-DarchetypeVersion=1.0 \
+-DgroupId=certification.inacio.ejb.chap07 \
+-DartifactId=cascading-merge-create \
+-Dversion=1.0.0-SNAPSHOT
+
+mvn archetype:generate \
+-DarchetypeGroupId=sandbox.inacio.maven \
+-DarchetypeArtifactId=mvn-jpa-sandalone-archetype \
+-DarchetypeVersion=1.0 \
+-DgroupId=certification.inacio.ejb.chap07 \
+-DartifactId=inverse-relationship \
+-Dversion=1.0.0-SNAPSHOT
+
+mvn sandbox.inacio.maven:mvn-ejb-and-clientapp-mojo:1.0:generate \
+-DgroupId=certification.inacio.ejb.chap07 \
+-DartifactId=lazy-initialization-parent \
+-Dversion=1.0.0-SNAPSHOT \
+-DejbModule=lazy-initialization-ejb \
+-DpersistenceUnitName=titan \
+-DclientModule=lazy-initialization-client

@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
-		<groupId>certification.inacio.ejb.chap06</groupId>
-		<artifactId>basic-property-mapping-parent</artifactId>
+		<groupId>certification.inacio.ejb.chap07</groupId>
+		<artifactId>lazy-initialization-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>basic-property-mapping-ejb</artifactId>
+	<artifactId>lazy-initialization-ejb</artifactId>
 	<packaging>ejb</packaging>
 
 	<properties>
@@ -29,7 +29,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>basic-property-mapping-ejb</finalName>
+		<finalName>lazy-initialization-ejb</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
